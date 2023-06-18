@@ -1,0 +1,38 @@
+.parent{
+ display:grid;
+ grid-template-columns:200px 200px 200px ;
+ justify-content:space-around
+}
+
+.cardImage{
+    
+    
+    max-width: 100%;
+    height:auto;
+}
+.cardList{
+    margin-bottom: 1rem;
+    width:400px;
+    height:500px;
+    background-color:rgb(242, 239, 241);
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    
+}
+.cardCard
+{
+    border-radius: 2px solid black;
+      position:relative;
+      background-color:var(--color-grey-primary);
+      margin: 1 rem;
+      flex: 1 0 25rem;
+      max-width: 30rem;
+      max-height: 50rem;
+      transition: 0.2s;
+}
+
+.cardCard:hover{
+    transform:translateY(-0.5rem);
+    box-shadow:0.5 rem 0.75rem 1.5rem #bbbbbb;
+}

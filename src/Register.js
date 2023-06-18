@@ -50,7 +50,8 @@ export default function Register(props)
         value={registerdata.password}
         onChange={handlechange}
         />
-        <button onClick={transferdata}>Sign up</button>
+        <button onClick={transferdata}
+        onClick={()=>{props.togglepage("login")}}>Sign up</button>
        </form>
        <button className="link--btn" onClick={()=>props.togglepage("login")}>Already have an account? Login here.</button>
     </>

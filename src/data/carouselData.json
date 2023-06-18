@@ -1,0 +1,19 @@
+
+{
+    "slides":[
+
+        {
+            "src":"https://assets.leetcode.com/users/images/5756c00b-f7ca-4c48-9700-550020ed667a_1652094066.947554.png",
+            "alt":"leetcode"
+        }
+        ,
+        {    "src":"https://static.digit.in/default/tr:w-1200/7abce1b06f735bcf68907bc5fafa4133ab7893e9.jpeg",
+            "alt":"codechef"
+        }
+        ,
+        {
+            "src":"https://hrcdn.net/og/default.jpg",
+            "alt":"hackerrank"
+        }
+    ]
+}
